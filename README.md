@@ -20,4 +20,4 @@ Files used were TT1,TT2,TT3,TT4
 Julia :::
 
 Here the file name is Ebola Data.The model is based on 1 year of available data.
-Plots are also present
+Plots are also present. The scatter plot is the predicted one using our model
