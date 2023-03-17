@@ -3,7 +3,7 @@ using Plots;
 gr();
 using Dates;
 
-DATA = readdlm("wikipediaEVDraw.csv",',');
+DATA = readdlm("EbolaVirus.csv",',');
 col1 = DATA[:,1];
 for i = 1 : length(col1)
 	col1[i] = Dates.DateTime(col1[i],"d u y")
@@ -50,6 +50,7 @@ diff_data = DATA[:,[4,6,8]];
 
 #plot(epidays,diff_data);
 
+## This Plot was used to plot virus spread across different Countries
 #plot!(epidays,diff_data,marker = ([:diamond :square :star7],4),line = :scatter , xlabel = " No of days since 22nd March " , ylabel = "No of Cases",title = "Ebola Cases in different Countries",label = ["Guinea" "Liberia" "Sierra Leone"])
 
 function updateSIR(vec)
@@ -62,6 +63,8 @@ function updateSIR(vec)
 	return [newS newI newR]
 end
 
+# Lambda is the probability of interaction between susceptible individual and infected individual
+# Gamma is the proportion of infected people being not contagious.
 lambda = 1.47e-6 ; gamma = 1/8 ; dt = 0.5 ; tfin = 610 ; s0 = 10^5 ; i0 = 20. ; r0 = 0 ;
 
 nsteps = round(Int64,tfin/dt);
@@ -84,11 +87,13 @@ rVal = resultsVal[:,3];
 iVal = resultsVal[:,2];
 cVal = iVal + rVal;
 
+#Here we plot the Data values .
 plot(timevec,cVal,xlabel = "Epidemic day" , ylabel = "No of Cases to date", title = "Model VS Data",label = "Model Values")
 
 tval_data = DATA[:,1];
 tot_cases_data = DATA[:,2];
 
+# This is our Plot where we compare our values with the original Data values.
 plot!(tval_data,tot_cases_data,label = "Reported Cases",legend = :right,line=:scatter)
 
 
