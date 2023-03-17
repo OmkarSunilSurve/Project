@@ -215,14 +215,40 @@ select * from Per_Pop_Vac;
  
  
  
+ -- Queries for Tableau 
  
  
+ -- 1 
+ Select SUM(new_cases) as total_cases, SUM(new_deaths) as total_deaths, SUM(new_deaths)/SUM(New_Cases)*100 as DeathPercentage
+From Covid_Death
+where continent is not null 
+order by 1,2 ;
+ 
+ -- 2
+ 
+ Select location, SUM(new_deaths) as TotalDeathCount
+From Covid_Death
+Where continent is null 
+and location not in ('World', 'European Union', 'International','High income','Low income','Upper middle income','Lower middle income')
+Group by location
+order by TotalDeathCount desc;
  
  
+ -- 3
+ 
+Select Location, Population, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
+From Covid_Death
+Group by Location, Population
+order by PercentPopulationInfected desc;
  
  
+ -- 4
  
- 
+ Select Location, Population,date_p, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
+From Covid_Death
+Group by Location, Population, date_p
+order by PercentPopulationInfected desc;
+-- into outfile 'C:/Program Files/MySQL/MySQL Server 8.0/TT4.txt' FIELDS TERMINATED BY ','  ENCLOSED BY '"' LINES TERMINATED BY '\n';
  
  
  
