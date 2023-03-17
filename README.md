@@ -9,7 +9,7 @@ Link : https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSele
 The above data consists the record from start of the epidemic till the current date.
 
 The data then was separated into two files which were used for further analysis and for quering the data to be used in Dashboard making using Tableau.
-those file Names are Covid_Vaccination and Covid_Deaths. Since the file are too heavy in terms of data (more than 2 lakh entries ), one can verify by looking at the table structure in the sql file as to which file contained which columns of the original data from the above link.
+Those file Names are Covid_Vaccination and Covid_Deaths. Since the file are too heavy in terms of data (more than 2 lakh entries ), one can verify by looking at the table structure in the sql file as to which file contained which columns of the original data from the above link.
 
 
 Tableau File ::: 
