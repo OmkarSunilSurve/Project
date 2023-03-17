@@ -24,4 +24,4 @@ Link : https://public.tableau.com/app/profile/omkar.surve/viz/CovidDashBoard_167
 Julia :::
 
 Here the file name is Ebola Data.The model is based on 1 year of available data.
-Plots are also present. The scatter plot is the predicted one using our model. Some Images of different plots are alos attached. Like virus spread across various countries.
+Plots are also present. Some Images of different plots are alos attached. Like virus spread across various countries.
