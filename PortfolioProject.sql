@@ -249,7 +249,7 @@ order by PercentPopulationInfected desc;
 From Covid_Death
 Group by Location, Population, date_p
 order by PercentPopulationInfected desc;
--- into outfile 'C:/Program Files/MySQL/MySQL Server 8.0/TT4.txt' FIELDS TERMINATED BY ','  ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
  
  
  
