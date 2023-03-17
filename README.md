@@ -23,5 +23,5 @@ Link : https://public.tableau.com/app/profile/omkar.surve/viz/CovidDashBoard_167
 
 Julia :::
 
-Here the file name is Ebola Data.The model is based on 1 year of available data.
+Here the file name is Ebola Data.The model is based on 1 year of available data. File from which data is taken is present here with name EbolaVirus.csv .
 Plots are also present. Some Images of different plots are also attached like virus spread across various countries and model fitting .
