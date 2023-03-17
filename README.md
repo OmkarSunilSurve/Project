@@ -1,7 +1,7 @@
 # Project
 
 
-PORTFOLIO PROJECT :::
+SQL :::
 
 Name of File : PortfolioProject.sql  .
 
