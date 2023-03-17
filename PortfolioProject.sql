@@ -216,6 +216,7 @@ select * from Per_Pop_Vac;
  
  
  -- Queries for Tableau 
+ -- To make our data to be imported more specific, we are creating these new queries.
  
  
  -- 1 
