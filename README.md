@@ -3,6 +3,8 @@
 
 PORTFOLIO PROJECT :::
 
+Name of File : PortfolioProject.sql  .
+
 Covid Data File can be downloaded from the link below
 Link : https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&hideControls=false&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=IND~USA~GBR~CAN~DEU~FRA.
 
@@ -14,6 +16,8 @@ Those file Names are Covid_Vaccination and Covid_Deaths. Since the files were to
 
 Tableau File ::: 
 
+Link to DashBoard is attached.
+
 Here the data that is being used was the result of the queries from the Portfolio project. you can find the queries in Portfolio.sql file.
 Files used were TT1,TT2,TT3,TT4.Format of the files is XLSX. Link to tableau dashboard is given below.
 Link : https://public.tableau.com/app/profile/omkar.surve/viz/CovidDashBoard_16790433263410/Dashboard1?publish=yes
@@ -22,6 +26,8 @@ Link : https://public.tableau.com/app/profile/omkar.surve/viz/CovidDashBoard_167
 
 
 Julia :::
+
+Name of File : SIR_Model.jl  .
 
 Here the file name is Ebola Data. The data was collected from internet. A screenshot of the table is also attached so that we have the idea of the table we will be talking about during our analysis (name  : EbolaVirusTable.png)
 The model is based on 1 year of available data. File from which data is taken is present here with name EbolaVirus.csv .
