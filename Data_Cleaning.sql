@@ -37,13 +37,13 @@ select * from data_cleaning limit 1000;
 
 SELECT SoldAsVacant , count(SoldAsVacant)
 from data_cleaning
-group by SoldAsVacant ; -- Thus indicates that we have to tranform this data to contain uniform format i.i with yes,no or y,n
+group by SoldAsVacant ; -- This indicates that we have to tranform this column to contain uniform format i.e with yes,no or y,n
 
 
 
 
 
--- 1. Populate Property Address of Data
+-- 1. Conversion of Property address in proper format i.e separating city,state.
 
 select * from data_cleaning 
 where PropertyAddress = '';
@@ -128,26 +128,26 @@ set OwnerState = substring(proxyCity , locate(',',proxyCity)+1,length(proxyCity)
 -- first we check what is the count of different type of values in this column
 
 SELECT SoldAsVacant , count(SoldAsVacant)
-from data_cleaning
+from data_cleaning                              -- here we are trying to see in what proportion we have Yes,No,Y,N in our column SoldAsVacant
 group by SoldAsVacant
 order by 2 ;
 
 select SoldAsVacant ,
 	case when SoldAsVacant = 'Y' then 'Yes'
-		when SoldAsVacant = 'N' then 'No'
+		when SoldAsVacant = 'N' then 'No'         -- Here we are create a output column where we apply the change using cases.
 		else SoldAsVacant
 	end
 from data_cleaning;
 
 update data_cleaning
-set SoldAsVacant = case when SoldAsVacant = 'Y' then 'Yes'
+set SoldAsVacant = case when SoldAsVacant = 'Y' then 'Yes'   -- Now we update our original column using the above technique
 	when SoldAsVacant = 'N' then 'No'
     else SoldAsVacant
     end;
 
 
 -- 4. Remove Duplicates and Null value present at various fields .
--- we make use of CTE to help us find duplicate entries. Here we had to do inner join between our table and the cte that we are making
+-- we make use of CTE to help us find duplicate entries. Here we had to do inner join between our table and the cte we are making
 -- for deletion
 
 with CTE as(
@@ -176,9 +176,9 @@ delete from data_cleaning where OwnerName = '' ;
 
 select * from data_cleaning ;
 
--- upon inspection i did find 2 column which were created early i.e proxycity , proxystate .
+-- upon inspection I did find 2 column which were created early i.e proxycity , proxystate .
 -- As we have created proper address for property address and owner address , now we delete the original column for these two .
--- we also delete tax district as we dont have any use of it.
+-- we also delete tax district as we don't have any use of it.
 
 alter table data_cleaning 
 drop column proxyCity ,
