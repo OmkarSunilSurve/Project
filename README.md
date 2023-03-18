@@ -3,7 +3,7 @@
 
 SQL :::
 
-Name of File : PortfolioProject.sql  .
+Name of File : 1. PortfolioProject.sql  .
 
 Covid Data File can be downloaded from the link below
 Link : https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&hideControls=false&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=IND~USA~GBR~CAN~DEU~FRA.
@@ -13,6 +13,12 @@ The above data consists the record from start of the epidemic till the current d
 The data then was separated into two files which were used for further analysis and for quering the data to be used in Dashboard making using Tableau.
 Those file Names are Covid_Vaccination and Covid_Deaths. Since the files were too heavy in terms of data (more than 2 lakh entries ), one can verify by looking at the table structure in the sql file as to which file contained which columns of the original data from the above link.
 
+Name of File : 2. Data_Cleaning.sql   .
+
+Original data File Name : Housing data.
+Transformed file Name : Data_Cleaning_Project.
+
+This project has helped me understand the process of cleaning the data. It helped me to think from the point of view of a Data Analyst as to which data fields would be important to keep in our table for performing some analysis. Comments are included in the sql file at various steps to understand how we were processing this data.
 
 Tableau File ::: 
 
