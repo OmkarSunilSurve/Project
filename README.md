@@ -19,7 +19,7 @@ Original data File Name : Housing data.
 Transformed file Name : Data_Cleaning_Project.
 
 This project has helped me understand the process of cleaning the data. It helped me to think from the point of view of a Data Analyst as to which data fields would be important to keep in our table for performing some analysis. Comments are included in the sql file at various steps to understand how we were processing this data.
-Due to file size being too much , the file does not open in git hub , but a raw copy is made available which can be downloaded.
+Due to file size being too much , the file does not open in git hub , but a raw copy is made available which can be downloaded. Same is true for Data_Cleaning_project file as well. the transformed file can alos be downloaded.
 
 Tableau File ::: 
 
