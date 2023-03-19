@@ -38,3 +38,10 @@ Name of File : SIR_Model.jl  .
 Here the file name is Ebola Data. The data was collected from internet. A screenshot of the table is also attached so that we have the idea of the table we will be talking about during our analysis (name  : EbolaVirusTable.png)
 The model is based on 1 year of available data. File from which data is taken is present here with name EbolaVirus.csv .
 Plots are also present. Some Images of different plots are also attached like virus spread across various countries and model fitting .
+
+
+
+Portfolio Site :::
+
+This site is my first try of exploring the use of websites for exhibiting my projects. Thesse projects are linked to main program file included in this git repository.
+Link : https://omkarsunilsurve.github.io/OmkarSurve.github.io/
