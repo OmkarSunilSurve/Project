@@ -35,9 +35,17 @@ Julia :::
 
 Name of File : SIR_Model.jl  .
 
-Here the file name is Ebola Data. The data was collected from internet. A screenshot of the table is also attached so that we have the idea of the table we will be talking about during our analysis (name  : EbolaVirusTable.png)
+Here the csv file name is Ebola Data. The data was collected from internet. A screenshot of the table is also attached so that we have the idea of the table we will be talking about during our analysis (name  : EbolaVirusTable.png)
 The model is based on 1 year of available data. File from which data is taken is present here with name EbolaVirus.csv .
 Plots are also present. Some Images of different plots are also attached like virus spread across various countries and model fitting .
+
+
+
+Python :::
+
+Name of File : Movies Correlation Project.ipynb
+
+Here the csv file name is movies. Here I have tried to perform hypothesis testing . With proper analysis I have concluded why our hypothesis was wrong. This has helped me understand how to gather insights from data.
 
 
 
