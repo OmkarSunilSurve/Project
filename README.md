@@ -1,6 +1,12 @@
 # Project
 
 
+Portfolio Site :::
+
+This site is my first try of exploring the use of websites for exhibiting my projects. Thesse projects are linked to main program file included in this git repository.
+Link : https://omkarsunilsurve.github.io/OmkarSurve.github.io/
+
+
 SQL :::
 
 Name of File : 1. PortfolioProject.sql  .
@@ -49,9 +55,4 @@ Name of File : Movies Correlation Project.ipynb
 Here the csv file name is movies. Here I have tried to perform hypothesis testing . With proper analysis I have concluded why our hypothesis was wrong. This has helped me understand how to gather insights from data.
 
 
-
-Portfolio Site :::
-
-This site is my first try of exploring the use of websites for exhibiting my projects. Thesse projects are linked to main program file included in this git repository.
-Link : https://omkarsunilsurve.github.io/OmkarSurve.github.io/
 
