@@ -1,7 +1,7 @@
 create database if not exists PortfolioProject;
 use PortfolioProject;
 
-drop table Covid_Death;
+drop table if exists Covid_Death;
 CREATE TABLE `Covid_Death` (
 	iso_code VARCHAR(40) NOT NULL, 
 	continent VARCHAR(40), 
