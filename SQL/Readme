@@ -7,6 +7,7 @@ The above data consists the record from start of the epidemic till the current d
 
 The data then was separated into two files which were used for further analysis and for quering the data to be used in Dashboard making using Tableau.
 Those file Names are Covid_Vaccination and Covid_Deaths. Since the files were too heavy in terms of data (more than 2 lakh entries ), one can verify by looking at the table structure in the sql file as to which file contained which columns of the original data from the above link.
+The files name TT1,TT2,TT3,TT4 are results of some queries which were further used in Tableau Project.
 
 Name of File : 2. Data_Cleaning.sql   .
 
