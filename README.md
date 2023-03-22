@@ -1,13 +1,14 @@
 # Project
 
 
-Portfolio Site :::
+
+## Portfolio Site :::
 
 This site is my first try of exploring the use of websites for exhibiting my projects. Thesse projects are linked to main program file included in this git repository.
 Link : https://omkarsunilsurve.github.io/OmkarSurve.github.io/
 
 
-SQL :::
+## SQL :::
 
 Name of File : 1. PortfolioProject.sql  .
 
@@ -28,7 +29,7 @@ Transformed file Name : Data_Cleaning_Project.
 This project has helped me understand the process of cleaning the data. It helped me to think from the point of view of a Data Analyst as to which data fields would be important to keep in our table for performing some analysis. Comments are included in the sql file at various steps to understand how we were processing this data.
 Due to file size being too large , the file does not open in git hub , but a raw copy is made available which can be downloaded. Same is true for Data_Cleaning_project file as well. the transformed file can alos be downloaded.
 
-Tableau File ::: 
+## Tableau File ::: 
 
 Link to DashBoard is attached.
 
@@ -38,7 +39,7 @@ Link : https://public.tableau.com/app/profile/omkar.surve/viz/CovidDashBoard_167
 
 
 
-Julia :::
+## Julia :::
 
 Name of File : SIR_Model.jl  .
 
@@ -48,7 +49,7 @@ Plots are also present. Some Images of different plots are also attached like vi
 
 
 
-Python :::
+## Python :::
 
 Name of File : Movies Correlation Project.ipynb
 
