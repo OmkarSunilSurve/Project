@@ -10,6 +10,8 @@ Link : https://omkarsunilsurve.github.io/OmkarSurve.github.io/
 
 ## SQL :::
 
+Folder : SQL
+
 Name of File : 1. PortfolioProject.sql  .
 
 Covid Data File can be downloaded from the link below
@@ -31,6 +33,8 @@ Due to file size being too large , the file does not open in git hub , but a raw
 
 ## Tableau File ::: 
 
+Folder : Tableau
+
 Link to DashBoard is attached.
 
 Here the data that is being used was the result of the queries from the Portfolio project. you can find the queries in Portfolio.sql file.
@@ -41,6 +45,8 @@ Link : https://public.tableau.com/app/profile/omkar.surve/viz/CovidDashBoard_167
 
 ## Julia :::
 
+Folder : Julia
+
 Name of File : SIR_Model.jl  .
 
 Here the csv file name is Ebola Data. The data was collected from internet. A screenshot of the table is also attached so that we have the idea of the table we will be talking about during our analysis (name  : EbolaVirusTable.png)
@@ -50,6 +56,8 @@ Plots are also present. Some Images of different plots are also attached like vi
 
 
 ## Python :::
+
+Folder : Python
 
 Name of File : Movies Correlation Project.ipynb
 
